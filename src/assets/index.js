@@ -21,16 +21,14 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import ira from "./company/ira.png";
+import asu from "./company/asu.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
-// import me from "./me.png"
+import me from "./me.png"
 
 export {
   logo,
@@ -54,12 +52,10 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  ira,
+  asu,
   carrent,
   jobit,
   tripguide,
-  // me,
+  me,
 };
