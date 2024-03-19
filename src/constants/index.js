@@ -1,26 +1,25 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
+    cpp,
+    csharp,
+    java,
+    python,
     javascript,
+    go,
+    sql,
+    r,
+    matlab,
     typescript,
     html,
     css,
+    bootstrap,
     reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
+    django,
+    aspnet,
+    xml,
     git,
-    figma,
     docker,
     ira,
     asu,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
   } from "../assets";
   
   export const navLinks = [
@@ -39,25 +38,65 @@ import {
   ];
   
   const services = [
-    {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+    // {
+    //   title: "Web Developer",
+    //   icon: web,
+    // },
+    // {
+    //   title: "React Native Developer",
+    //   icon: mobile,
+    // },
+    // {
+    //   title: "Backend Developer",
+    //   icon: backend,
+    // },
+    // {
+    //   title: "Content Creator",
+    //   icon: creator,
+    // },
   ];
   
   const technologies = [
+    {
+      name: "C++",
+      icon: cpp,
+    },
+    {
+      name: "C#",
+      icon: csharp,
+    },
+    {
+      name: "Java",
+      icon: java,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "JavaScript",
+      icon: javascript,
+    },
+    {
+      name: "Go",
+      icon: go,
+    },
+    {
+      name: "SQL",
+      icon: sql,
+    },
+    {
+      name: "R",
+      icon: r,
+    },
+    {
+      name: "MATLAB",
+      icon: matlab,
+    },
+    {
+      name: "TypeScript",
+      icon: typescript,
+    },
     {
       name: "HTML 5",
       icon: html,
@@ -67,44 +106,28 @@ import {
       icon: css,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Bootstrap",
+      icon: bootstrap,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Django",
+      icon: django,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "ASP.NET",
+      icon: aspnet,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
+      name: "XML",
+      icon: xml,
     },
     {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
     },
     {
       name: "docker",
@@ -168,30 +191,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Portfolio",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "",
       tags: [
         {
           name: "react",
@@ -206,7 +208,28 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      // image: ,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Weather/News App",
+      description:
+        "Web application hosted on ASU web server that gives baisc weather information such as 5-day weather forecast for specific zipcodes/cities. Additionally, user can also view news on zipcode/city.",
+      tags: [
+        {
+          name: "Csharp",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ASP.NET",
+          color: "green-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "pink-text-gradient",
+        },
+      ],
+      // image: carrent,
       source_code_link: "https://github.com/",
     },
     {
@@ -227,7 +250,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      // image: ,
       source_code_link: "https://github.com/",
     },
     {
@@ -248,7 +271,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      // image: ,
       source_code_link: "https://github.com/",
     },
   ];

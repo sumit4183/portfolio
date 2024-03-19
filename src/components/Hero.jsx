@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
 
+import { github } from "../assets";
+import { linkedin } from '../assets';
 import { me } from "../assets";
 
 const Hero = () => {
@@ -21,10 +23,25 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className="text-[#915eff]">Sumit</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className="sm:block hidden"/> 
-            interfaces and web applications
-          </p>
+          {/* <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+            
+          </p> */}
+          {/* class="flex flex-row items-center justify-center gap-2 px-4 text-lg font-medium" */}
+          <div
+              className='my-5 flex flex-row items-center gap-2 px-4 text-lg font-medium'
+            >
+              <img 
+                src={linkedin}
+                className='w-8 h-8'
+              /> LinkedIn
+              <br className='lg:block hidden' />
+              <img 
+                src={github}
+                className='w-8 h-8'
+              />
+              Github
+
+          </div>
         </div>
       </div>
 
