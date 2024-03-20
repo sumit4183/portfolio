@@ -28,6 +28,7 @@ import ira from "./company/ira.png";
 import asu from "./company/asu.png";
 
 import me from "./me.png"
+import resume from "./SumitPatelResume.pdf";
 
 export {
   logo,
@@ -57,4 +58,5 @@ export {
   ira,
   asu,
   me,
+  resume,
 };

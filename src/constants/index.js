@@ -193,23 +193,23 @@ import {
     {
       name: "Portfolio",
       description:
-        "",
+        "Personal Portfolio",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "three js",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwind css",
           color: "pink-text-gradient",
         },
       ],
       // image: ,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/sumit4183/portfolio",
     },
     {
       name: "Weather/News App",
@@ -230,19 +230,19 @@ import {
         },
       ],
       // image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/sumit4183",
     },
     {
-      name: "Trip Guide",
+      name: "FMS",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A basic website with games that help people who had stroke redevelop their fine motor skills. ",
       tags: [
         {
-          name: "nextjs",
+          name: "javascript",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "html",
           color: "green-text-gradient",
         },
         {
@@ -251,28 +251,24 @@ import {
         },
       ],
       // image: ,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/sumit4183/Project-FMS",
     },
     {
-      name: "Job IT",
+      name: "Store Management System",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Python application that helps in keeping all the activities involved in storekeeping and stock control are carried out efficiently and economically by the store personnel.",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "sql",
           color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
         },
       ],
       // image: ,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/sumit4183/Store-Management-System",
     },
   ];
   

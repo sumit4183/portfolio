@@ -49,17 +49,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris commodo
-        pellentesque facilisis. Nam non iaculis enim. Mauris nec mauris at lacus
-        ultrices congue quis ac tortor. Suspendisse sollicitudin lectus ac purus
-        faucibus vestibulum. Sed sit amet sem rutrum odio tristique molestie eget
-        eget orci. Proin placerat interdum lacus, sagittis elementum sem
-        sollicitudin et. Suspendisse sodales diam eu dapibus pellentesque. Cras
-        eget placerat arcu, id scelerisque risus. Morbi ligula quam, maximus vel
-        nibh quis, suscipit convallis velit. Vivamus cursus facilisis diam eget
-        fermentum. Pellentesque et iaculis lorem. Suspendisse non libero et nulla
-        auctor efficitur. Sed venenatis purus at tortor iaculis, vel tincidunt
-        justo egestas. Donec suscipit iaculis sodales.
+        Welcome to my portfolio! I'm Sumit Patel, a dedicated Computer Science student at 
+        Arizona State University's Ira A. Fulton Schools of Engineering. With a passion 
+        for problem-solving and a keen interest in data science, I strive to contribute 
+        innovative solutions to real-world challenges. Through my academic endeavors and 
+        practical experiences, I am committed to leveraging technology to make a positive 
+        impact on society. I look forward to exploring new opportunities and 
+        collaborations to further enhance my skills and contribute to the advancement of 
+        technology-driven solutions.
       </motion.p>
 
       {/* <div className="mt-20 flex flex-wrap gap-10">
