@@ -24,3 +24,7 @@
 .padding {
   @apply sm:px-16 px-6 sm:py-16 py-10
 }
+
+.black-gradient {
+  background: linear-gradient(89.7deg, rgb(0, 0, 0) -10.7%, rgb(53, 92, 125) 88.8%);
+}
