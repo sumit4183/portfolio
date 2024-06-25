@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto">
+      <div className="absolute inset-0 bg-black opacity-40"></div>
       <div className="paddingX absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-10">
         <div className="flex flex-col justify-center items-center mt-5 xs-max:hidden">
           <img src="me.png" 
