@@ -13,7 +13,7 @@ const Hero = () => {
             className="rounded-full border-4 border-theme sm:w-40 sm:h-38 md:w-52 md:h-50 lg:w-52 lg:h-50 xl:w-52 xl:h-50"
           />
           <div className="w-5 h-5 rounded-full bg-theme" />
-          <div className="w-1 sm:h-80 h-40 violet-gradient" />
+          <div className="w-1 sm:h-80 h-40 gray-gradient" />
         </div>
 
         <div className="xs-max:text-center xs-max:mt">

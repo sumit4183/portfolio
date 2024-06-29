@@ -56,7 +56,7 @@ const Navbar = () => {
               {navLinks.map((link) => (
                 <li
                   key={link.id}
-                  className={`${active === link.title ? "text-white" : "text-secondary"}
+                  className={`${active === link.title ? "text-white" : "text-white"}
                   font-poppins font-medium cursor-pointer text-[16px]`}
                   onClick={() => {
                     setToggle(!toggle);

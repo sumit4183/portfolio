@@ -13,7 +13,7 @@ const ServiceCard = ({ index, title, description }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+      className='w-full blue-white-gradient p-[1px] rounded-[20px] shadow-card'
     >
       <div className='bg-tertiary rounded-[20px] py-5 px-8 min-h-[280px] flex justify-evenly items-center flex-col'>
         <h3 className='text-[#6096ba] text-[20px] font-bold text-center'>{title}</h3>
