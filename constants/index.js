@@ -58,3 +58,173 @@ export const experiences = [
     ],
   },
 ];
+
+export const technologies = [
+  {
+    name: "C++",
+    icon: "/tech/cpp.png",
+  },
+  {
+    name: "C#",
+    icon: "/tech/csharp.png",
+  },
+  {
+    name: "Java",
+    icon: "/tech/java.png",
+  },
+  {
+    name: "Python",
+    icon: "/tech/python.png",
+  },
+  {
+    name: "JavaScript",
+    icon: "/tech/javascript.png",
+  },
+  {
+    name: "Go",
+    icon: "/tech/go.png",
+  },
+  {
+    name: "SQL",
+    icon: "/tech/sql.png",
+  },
+  {
+    name: "R",
+    icon: "/tech/r.png",
+  },
+  {
+    name: "MATLAB",
+    icon: "/tech/matlab.png",
+  },
+  {
+    name: "TypeScript",
+    icon: "/tech/typescript.png",
+  },
+  {
+    name: "HTML 5",
+    icon: "/tech/html.png",
+  },
+  {
+    name: "CSS 3",
+    icon: "/tech/css.png",
+  },
+  {
+    name: "Bootstrap",
+    icon: "/tech/bootstrap.png",
+  },
+  {
+    name: "React JS",
+    icon: "/tech/reactjs.png",
+  },
+  {
+    name: "Three JS",
+    icon: "/tech/threejs.png",
+  },
+  {
+    name: "Django",
+    icon: "/tech/django.png",
+  },
+  {
+    name: "ASP.NET",
+    icon: "/tech/aspnet.png",
+  },
+  {
+    name: "XML",
+    icon: "/tech/xml.png",
+  },
+  {
+    name: "git",
+    icon: "/tech/git.png",
+  },
+  {
+    name: "docker",
+    icon: "/tech/docker.png",
+  },
+];
+
+export const projects = [
+  {
+    name: "Portfolio",
+    description:
+      "Personal Portfolio",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "three.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindCSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "/website/portfolio.png",
+    source_code_link: "https://github.com/sumit4183/portfolio",
+    website_link: "https://spatelportfolio.netlify.app/",
+  },
+  {
+    name: "Weather/News App",
+    description:
+      "Web application hosted on ASU web server that gives baisc weather information such as 5-day weather forecast for specific zipcodes/cities. Additionally, user can also view news on zipcode/city.",
+    tags: [
+      {
+        name: "Csharp",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ASP.NET",
+        color: "green-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "/herobg.jpg",
+    source_code_link: "https://github.com/sumit4183",
+    website_link: "",
+  },
+  {
+    name: "FMS",
+    description:
+      "A basic website with games that help people who had stroke redevelop their fine motor skills. ",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "/website/FMS.png",
+    source_code_link: "https://github.com/sumit4183/Project-FMS",
+    website_link: "https://sumit4183.github.io/Project-FMS/main.html",
+  },
+  {
+    name: "Store Management System",
+    description:
+      "Python application that helps in keeping all the activities involved in storekeeping and stock control are carried out efficiently and economically by the store personnel.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "sql",
+        color: "green-text-gradient",
+      },
+    ],
+    image: "/herobg.jpg",
+    source_code_link: "https://github.com/sumit4183/Store-Management-System",
+    website_link: "",
+  },
+];

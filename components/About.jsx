@@ -4,7 +4,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Tilt from 'react-parallax-tilt';
-// import ServiceCard from "./ServiceCard";
 import { services } from "@/constants";
 import SectionWrapper from "./SectionWrapper.jsx"
 import { fadeIn, textVariant } from "../utils/motion";
