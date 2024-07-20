@@ -23,12 +23,8 @@ export const services = [
     description: "Passionate about UI/UX. Over 5 years of development experience in HTML, CSS, JS, React and NextJS frameworks.",
   },
   {
-    title: "React Native Developer",
-    description: "",
-  },
-  {
-    title: "Backend Developer",
-    description: "",
+    title: "Software Development",
+    description: "Expirenced in both functional and OOP: C++, C#, Python, Java, Javascript",
   },
 ];
 
@@ -133,98 +129,105 @@ export const technologies = [
     icon: "/tech/xml.png",
   },
   {
-    name: "git",
+    name: "Git",
     icon: "/tech/git.png",
   },
   {
-    name: "docker",
+    name: "Docker",
     icon: "/tech/docker.png",
   },
 ];
 
 export const projects = [
   {
-    name: "Portfolio",
+    name: "Car Rental System",
     description:
-      "Personal Portfolio",
+      "A backend system for car rental services, featuring booking management, user authentication, and comprehensive rental operations.",  
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "C++",
       },
       {
-        name: "three.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindCSS",
-        color: "pink-text-gradient",
+        name: "SQLite",
       },
     ],
-    image: "/website/portfolio.png",
+    read_more: "",
+    source_code_link: "https://github.com/sumit4183/car-rental",
+    website_link: "",
+  },
+  {
+    name: "Portfolio",
+    description:
+      "Dive into my portfolio to see a variety of web development projects demonstrating my technical skills and creativity.",
+    tags: [
+      {
+        name: "React",
+      },
+      {
+        name: "Three.js",
+      },
+      {
+        name: "TailwindCSS",
+      },
+    ],
+    read_more: "",
     source_code_link: "https://github.com/sumit4183/portfolio",
     website_link: "https://spatelportfolio.netlify.app/",
   },
   {
     name: "Weather/News App",
     description:
-      "Web application hosted on ASU web server that gives baisc weather information such as 5-day weather forecast for specific zipcodes/cities. Additionally, user can also view news on zipcode/city.",
+      "Web application hosted on ASU web server that gives baisc weather informationand news for specific zipcodes/cities",
     tags: [
       {
-        name: "Csharp",
-        color: "blue-text-gradient",
+        name: "C#",
       },
       {
         name: "ASP.NET",
-        color: "green-text-gradient",
       },
       {
-        name: "restapi",
-        color: "pink-text-gradient",
+        name: "RESTfulAPI",
       },
     ],
-    image: "/herobg.jpg",
-    source_code_link: "https://github.com/sumit4183",
+    read_more: "",
+    source_code_link: "https://github.com/sumit4183/news-weather-app",
     website_link: "",
   },
   {
     name: "FMS",
     description:
-      "A basic website with games that help people who had stroke redevelop their fine motor skills. ",
+      "Games that help stroke survivors redevelop fine motor skills through engaging activities.",
     tags: [
       {
-        name: "javascript",
-        color: "blue-text-gradient",
+        name: "JavaScript",
       },
       {
-        name: "html",
-        color: "green-text-gradient",
+        name: "HTML",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "CSS",
       },
     ],
-    image: "/website/FMS.png",
+    read_more: "",
     source_code_link: "https://github.com/sumit4183/Project-FMS",
     website_link: "https://sumit4183.github.io/Project-FMS/main.html",
   },
   {
     name: "Store Management System",
     description:
-      "Python application that helps in keeping all the activities involved in storekeeping and stock control are carried out efficiently and economically by the store personnel.",
+      "This project delivers an easy-to-use Store Management System with Python and MySQL for efficient, secure, and user-friendly data management.", 
     tags: [
       {
-        name: "python",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "sql",
+        name: "SQL",
         color: "green-text-gradient",
       },
     ],
-    image: "/herobg.jpg",
+    read_more: "",
     source_code_link: "https://github.com/sumit4183/Store-Management-System",
     website_link: "",
-  },
+  }
 ];

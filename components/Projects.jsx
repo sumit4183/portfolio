@@ -13,7 +13,7 @@ const ProjectCard = ({
   name,
   description,
   tags,
-  image,
+  read_more,
   source_code_link,
   website_link,
 }) => {
@@ -25,59 +25,62 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl w-full  flex flex-col justify-between'
+        className='bg-tertiary p-5 rounded-2xl w-full flex flex-col'
       >
-        <div className='relative w-full h-[230px]'>
-          <img
-            src={image}
-            alt='project_image'
-            className='w-full h-full object-cover rounded-2xl'
-          />
+        <h3 className='mt-3 text-white text-center font-bold text-[26px]'>{name}</h3>
 
-          <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-          {source_code_link && (
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-            >
-              <img
-                src="/github.png"
-                alt='source code'
-                className='w-1/2 h-1/2 object-contain'
-              />
-            </div>
-          )}
-          </div>
-        </div>
-
-        <div className='mt-5 flex-grow'>
-          <div>
-            <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-            <p className='mt-2 text-secondary text-[14px]'>{description}</p>
-          </div> 
-        </div>
-
-        <div className='mt-4 flex flex-wrap gap-2 items-end'>
+        <div className="flex justify-center space-x-2 mt-2">
           {tags.map((tag) => (
             <p
               key={`${name}-${tag.name}`}
-              className={`text-[14px] ${tag.color}`}
+              className='text-[14px] text-[#d1e4ff]'
             >
-              #{tag.name}
+              {tag.name}
             </p>
           ))}
-          <div className="flex-grow"></div>
+        </div>
+        
+        <div className='w-2/4 mt-3 mb-3 mx-auto border-t-2 border-gray-700'></div>
+
+        <p className='mt-2 text-secondary text-[14px] text-center'>{description}</p>
+
+        {read_more && (
+          <div
+            onClick={() => window.open(read_more, "_blank")}
+            className='rounded-full cursor-pointer items-center flex justify-center mt-2'
+          >
+            <span className="pl-1 text-[#bdb2ff]">Read More</span>
+            <img
+                src="/rightArrow.svg"
+                alt="External Link Symbol"
+                className="ml-1 w-5 h-5 pb-2/3"
+              />
+          </div>
+        )}
+        
+        <div className='flex-grow'></div>
+
+        <div className='mt-4 flex flex-wrap gap-2 justify-center'>
+          <div
+            onClick={() => window.open(source_code_link, "_blank")}
+            className='rounded-full items-center justify-center cursor-pointer flex'
+          >
+            <img
+              src="/github.png"
+              alt="External Link Symbol"
+              className="w-8 h-8 pb-2/3"
+            />
+          </div>
           {website_link && (
             <div
               onClick={() => window.open(website_link, "_blank")}
-              className='rounded-full items-center cursor-pointer flex'
+              className='rounded-full items-center justify-center cursor-pointer flex'
             >
               <img
-                src="/externlink.svg"
+                src="/externlink.png"
                 alt="External Link Symbol"
-                className="w-4 h-4 pb-2/3"
+                className="w-7 h-7 pb-2/3 filter-white"
               />
-              <span className="pl-1">Site</span>
             </div>
           )}
         </div>
