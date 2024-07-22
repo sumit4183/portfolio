@@ -172,7 +172,7 @@ export const projects = [
     ],
     read_more: "",
     source_code_link: "https://github.com/sumit4183/portfolio",
-    website_link: "https://spatelportfolio.netlify.app/",
+    website_link: "https://sumitp.netlify.app/",
   },
   {
     name: "Weather/News App",
@@ -231,3 +231,7 @@ export const projects = [
     website_link: "",
   }
 ];
+
+export const projectDetails = [
+  {},
+]

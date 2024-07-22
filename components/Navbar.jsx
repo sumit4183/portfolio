@@ -20,8 +20,8 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src="logo.svg" alt='logo' className='w-12 h-12 object-contain xs-max:hidden' />
-          <img src="me.png" alt='logo' className='w-12 h-12 object-contain xs-min:hidden' />
+          <img src="/logo.svg" alt='logo' className='w-12 h-12 object-contain xs-max:hidden' />
+          <img src="/me.png" alt='logo' className='w-12 h-12 object-contain xs-min:hidden' />
           {/* <Image src="logo.svg" height={40} width={40} alt="logo" className="object-contain" /> */}
           {/* <Image src="me.png" height={40} width={40} alt="logo" className="object-contain xs-max:hidden" /> */}
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
@@ -37,14 +37,14 @@ const Navbar = () => {
               hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
-              <a href={`#${link.id}`}>{link.title}</a>
+              <a href={`/#${link.id}`}>{link.title}</a>
             </li>
           ))}
         </ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
             <img 
-              src={toggle ? "./close.svg" : "./menu.svg"}
+              src={toggle ? "/close.svg" : "/menu.svg"}
               alt="menu"
               className="w-[28px] h-[28px] object-contain cursor-pointer"
               onClick={() => setToggle(!toggle)}
@@ -62,7 +62,7 @@ const Navbar = () => {
                     setActive(link.title)
                   }}
                 >
-                  <a href={`#${link.id}`}>{link.title}</a>
+                  <a href={`/#${link.id}`}>{link.title}</a>
                 </li>
               ))}
             </ul>

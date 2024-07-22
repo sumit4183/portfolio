@@ -3,6 +3,7 @@
 import React from 'react'
 import { Tilt } from "react-tilt"
 import { motion } from "framer-motion"
+import { useRouter } from 'next/navigation';
 
 import SectionWrapper from "./SectionWrapper.jsx"
 import { projects } from "@/constants";
@@ -17,6 +18,8 @@ const ProjectCard = ({
   source_code_link,
   website_link,
 }) => {
+  const router = useRouter();
+
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} className="flex">
       <Tilt
@@ -46,7 +49,7 @@ const ProjectCard = ({
 
         {read_more && (
           <div
-            onClick={() => window.open(read_more, "_blank")}
+            onClick={() => window.open(`/projects/${read_more}`, '_blank')}
             className='rounded-full cursor-pointer items-center flex justify-center mt-2'
           >
             <span className="pl-1 text-[#bdb2ff]">Read More</span>
