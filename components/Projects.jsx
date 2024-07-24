@@ -18,8 +18,6 @@ const ProjectCard = ({
   source_code_link,
   website_link,
 }) => {
-  const router = useRouter();
-
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} className="flex">
       <Tilt

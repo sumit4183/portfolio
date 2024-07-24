@@ -60,7 +60,7 @@
 }
 
 .projectHeadText {
-  @apply text-white font-black lg:text-[60px];
+  @apply text-white font-black text-[40px] sm:text-[50px] md:text-[60px];
 }
 
 .breadcrumbText {

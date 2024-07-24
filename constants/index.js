@@ -201,6 +201,7 @@ export const projectDetails = [
     read_more: "car-rental-system",
     source_code_link: "https://github.com/sumit4183/car-rental",
     website_link: "",
+    description: "vdasvv",
     implementation: "Detailed implementation steps for Portfolio...",
     additionalInfo: "Additional information about the Portfolio project...",
   },

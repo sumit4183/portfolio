@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
-import { projects } from '@/constants';
+import { projectDetails } from '@/constants';
 
 const Breadcrumb = () => {
   const pathname = usePathname();
@@ -9,14 +9,14 @@ const Breadcrumb = () => {
 
   // Function to get the project name based on the read_more value
   const getProjectName = (read_more) => {
-    const project = projects.find(proj => proj.read_more === read_more);
+    const project = projectDetails.find(proj => proj.read_more === read_more);
     return project ? project.name : read_more;
   };
 
   return (
-    <nav aria-label="breadcrumb" className="my-6">
+    <nav aria-label="breadcrumb" className="mt-12 mb-6">
       <ol className="breadcrumb flex space-x-2 breadcrumbText">
-        <li>
+        <li className="flex items-center">
           <Link href="/" className="hover:text-white">
             Home
           </Link>

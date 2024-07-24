@@ -27,11 +27,10 @@ const ProjectDetail = () => {
         <Breadcrumb />
         <h1 className="projectHeadText">{project.name}</h1>
         
-        {/* <div className="mb-4">
-          <h2 className="text-2xl font-semibold">Description</h2>
+        <div className="mb-4">
           <p>{project.description}</p>
         </div>
-        <div className="mb-4">
+        {/*<div className="mb-4">
           <h2 className="text-2xl font-semibold">Tech Stack</h2>
           <ul>
             {project.tags.map((tag, index) => (
