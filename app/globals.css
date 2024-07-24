@@ -44,7 +44,7 @@
 }
 
 .heroHeadText {
-  @apply font-black text-white lg:text-[80px] sm:text-[60px] text-[40px] lg:leading-[98px] mt-2;
+  @apply text-white font-black lg:text-[80px] sm:text-[60px] text-[40px] lg:leading-[98px] mt-2;
 }
 
 .heroSubText {
@@ -59,12 +59,24 @@
   @apply text-[25px] text-secondary tracking-wider;
 }
 
+.projectHeadText {
+  @apply text-white font-black lg:text-[60px];
+}
+
+.breadcrumbText {
+  @apply text-secondary;
+}
+
 .hover\:zoom {
   transition: transform 0.3s ease;
 }
 
 .hover\:zoom:hover {
   transform: scale(1.2);
+}
+
+.text-hover {
+  @apply transform transition-transform duration-300 hover:scale-105 inline-flex items-center;
 }
 
 .gray-gradient {

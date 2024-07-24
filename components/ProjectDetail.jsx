@@ -3,25 +3,31 @@
 import React from 'react';
 import { useParams } from 'next/navigation';
 
+import SectionWrapper from "./SectionWrapper.jsx"
+import Breadcrumb from './Breadcrumb.jsx';
 import { projects, projectDetails } from "@/constants";
-import Navbar from "@/components/Navbar";
+
 
 const ProjectDetail = () => {
   const { read_more } = useParams();
 
-  const project = projects.find(proj => proj.read_more === read_more);
-  const projectDetail = projectDetails.find(detail => detail.read_more === read_more);
+  // Find the project details using the read_more parameter
+  const project = projectDetails.find(proj => proj.read_more === read_more);
 
-  if (!project || !projectDetail) {
+  // If project is not found, return a message
+  if (!project) {
     return <div>Project not found</div>;
   }
 
   return (
     <>
-      <Navbar />
-      <div className="container mx-auto p-5 mt-20"> {/* Adjust the top margin as needed */}
-        <h1 className="text-4xl font-bold mb-4">{project.name}</h1>
-        <div className="mb-4">
+      
+      {/* <div className="container mx-auto p-5"> */}
+
+        <Breadcrumb />
+        <h1 className="projectHeadText">{project.name}</h1>
+        
+        {/* <div className="mb-4">
           <h2 className="text-2xl font-semibold">Description</h2>
           <p>{project.description}</p>
         </div>
@@ -50,10 +56,10 @@ const ProjectDetail = () => {
               <button className="btn btn-secondary">Live Demo</button>
             </a>
           )}
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
     </>
   );
 };
 
-export default ProjectDetail;
+export default SectionWrapper(ProjectDetail, "");

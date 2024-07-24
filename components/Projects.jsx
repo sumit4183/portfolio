@@ -35,10 +35,10 @@ const ProjectCard = ({
         <div className="flex justify-center space-x-2 mt-2">
           {tags.map((tag) => (
             <p
-              key={`${name}-${tag.name}`}
+              key={`${name}-${tag}`}
               className='text-[14px] text-[#d1e4ff]'
             >
-              {tag.name}
+              {tag}
             </p>
           ))}
         </div>
