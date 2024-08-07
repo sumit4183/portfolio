@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 import SectionWrapper from "./SectionWrapper.jsx"
 import { technologies } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
+import { textVariant } from "../utils/motion";
 
 
 const Tech = () => {
@@ -39,10 +39,11 @@ const Tech = () => {
         <motion.div variants={textVariant()} className='flex flex-row flex-wrap justify-center gap-3'>
           {technologies.map((technology, index) => (
             <div key={index} className='w-28 h-28 flex flex-wrap justify-center gap-2 text-lg my-4'>
-              <div className="flex flex-col items-center px-1 py-5 hover:zoom">
+              <div className="flex flex-col items-center px-1 py-5 hover:zoom text-center">
                 <img 
                   src={technology.icon}
                   className="w-30 h-20"
+                  alt={`${technology.name} icon`}
                 />
                 {technology.name}
               </div>

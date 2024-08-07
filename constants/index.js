@@ -1,20 +1,8 @@
 export const navLinks = [
-  {
-    id: "about",
-    title: "About",
-  },
-  {
-    id: "work",
-    title: "Work",
-  },
-  {
-    id: "projects",
-    title: "Projects",
-  },
-  {
-    id: "contact",
-    title: "Contact",
-  },
+  { id: "about", title: "About", },
+  { id: "work", title: "Work", },
+  { id: "projects", title: "Projects", },
+  { id: "contact", title: "Contact", },
 ];
 
 export const services = [
@@ -56,86 +44,28 @@ export const experiences = [
 ];
 
 export const technologies = [
-  {
-    name: "C++",
-    icon: "/tech/cpp.png",
-  },
-  {
-    name: "C#",
-    icon: "/tech/csharp.png",
-  },
-  {
-    name: "Java",
-    icon: "/tech/java.png",
-  },
-  {
-    name: "Python",
-    icon: "/tech/python.png",
-  },
-  {
-    name: "JavaScript",
-    icon: "/tech/javascript.png",
-  },
-  {
-    name: "Go",
-    icon: "/tech/go.png",
-  },
-  {
-    name: "SQL",
-    icon: "/tech/sql.png",
-  },
-  {
-    name: "R",
-    icon: "/tech/r.png",
-  },
-  {
-    name: "MATLAB",
-    icon: "/tech/matlab.png",
-  },
-  {
-    name: "TypeScript",
-    icon: "/tech/typescript.png",
-  },
-  {
-    name: "HTML 5",
-    icon: "/tech/html.png",
-  },
-  {
-    name: "CSS 3",
-    icon: "/tech/css.png",
-  },
-  {
-    name: "Bootstrap",
-    icon: "/tech/bootstrap.png",
-  },
-  {
-    name: "React JS",
-    icon: "/tech/reactjs.png",
-  },
-  {
-    name: "Three JS",
-    icon: "/tech/threejs.png",
-  },
-  {
-    name: "Django",
-    icon: "/tech/django.png",
-  },
-  {
-    name: "ASP.NET",
-    icon: "/tech/aspnet.png",
-  },
-  {
-    name: "XML",
-    icon: "/tech/xml.png",
-  },
-  {
-    name: "Git",
-    icon: "/tech/git.png",
-  },
-  {
-    name: "Docker",
-    icon: "/tech/docker.png",
-  },
+  { name: "C++", icon: "/tech/cpp.png", },
+  { name: "C#", icon: "/tech/csharp.png", },
+  { name: "Java", icon: "/tech/java.png", },
+  { name: "Python", icon: "/tech/python.png", },
+  { name: "JavaScript", icon: "/tech/javascript.png", },
+  { name: "TypeScript", icon: "/tech/typescript.png", },
+  { name: "Go", icon: "/tech/go.png", },
+  { name: "SQL", icon: "/tech/sql.png", },
+  { name: "R", icon: "/tech/r.png", },
+  { name: "MATLAB", icon: "/tech/matlab.png", },
+  { name: "HTML 5", icon: "/tech/html.png", },
+  { name: "CSS 3", icon: "/tech/css.png", },
+  { name: "Tailwind CSS", icon: "/tech/tailwind.svg", },
+  { name: "Bootstrap", icon: "/tech/bootstrap.png", },
+  { name: "React", icon: "/tech/reactjs.png", },
+  { name: "Next.js", icon: "/tech/nextjs.svg", },
+  { name: "Three.js", icon: "/tech/threejs.png", },
+  { name: "Django", icon: "/tech/django.png", },
+  { name: "ASP.NET", icon: "/tech/aspnet.png", },
+  { name: "XML", icon: "/tech/xml.png", },
+  { name: "Git", icon: "/tech/git.png", },
+  { name: "Docker", icon: "/tech/docker.png", },
 ];
 
 export const projects = [
@@ -198,20 +128,22 @@ export const projectDetails = [
     read_more: "car-rental-system",
     year: "2024",
     tags: [ "C++", "SQLite", ],
-    read_more: "car-rental-system",
     source_code_link: "https://github.com/sumit4183/car-rental",
-    website_link: "",
-    description: "vdasvv",
+    website_link: "vdvv",
+    description: `The Car Rental Management System is designed to streamline 
+      the car rental process, making it more efficient and user-friendly for 
+      both customers and administrators. This system includes features such 
+      as user management, car listings, booking systems, payment processing,
+      and rental history tracking.`,
     implementation: "Detailed implementation steps for Portfolio...",
     additionalInfo: "Additional information about the Portfolio project...",
   },
   // Portfolio
   {
     name: "Portfolio",
-    read_more: "portfolio",
+    // read_more: "portfolio",
     year: "2024",
     tags: [ "React", "Three.js", "TailwindCSS", ],
-    read_more: "portfolio",
     source_code_link: "https://github.com/sumit4183/portfolio",
     website_link: "https://sumitp.netlify.app/",
     implementation: "Detailed implementation steps for Portfolio...",
@@ -220,10 +152,9 @@ export const projectDetails = [
   // Weather/News App
   {
     name: "Weather/News App",
-    read_more: "weather-news-app",
+    // read_more: "weather-news-app",
     year: "2023",
     tags: [ "C#", "ASP.NET", "RESTfulAPI", ],
-    read_more: "weather-news-app",
     source_code_link: "https://github.com/sumit4183/news-weather-app",
     website_link: "",
     implementation: "Detailed implementation steps for Portfolio...",
@@ -232,10 +163,9 @@ export const projectDetails = [
   // FMS
   {
     name: "FMS",
-    read_more: "fms",
+    // read_more: "fms",
     year: "2021",
     tags: [ "JavaScript", "HTML", "CSS", ],
-    read_more: "fms",
     source_code_link: "https://github.com/sumit4183/Project-FMS",
     website_link: "https://sumit4183.github.io/Project-FMS/main.html",
     implementation: "Detailed implementation steps for Portfolio...",
@@ -244,10 +174,9 @@ export const projectDetails = [
   // Store Management System
   {
     name: "Store Management System",
-    read_more: "store-management-system",
+    // read_more: "store-management-system",
     year: "2021",
     tags: [ "Python", "SQL", ],
-    read_more: "store-management-system",
     source_code_link: "https://github.com/sumit4183/Store-Management-System",
     website_link: "",
     implementation: "Detailed implementation steps for Portfolio...",
