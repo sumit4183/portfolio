@@ -129,12 +129,33 @@ export const projectDetails = [
     year: "2024",
     tags: [ "C++", "SQLite", ],
     source_code_link: "https://github.com/sumit4183/car-rental",
-    website_link: "vdvv",
+    website_link: "",
     description: `The Car Rental Management System is designed to streamline 
       the car rental process, making it more efficient and user-friendly for 
-      both customers and administrators. This system includes features such 
-      as user management, car listings, booking systems, payment processing,
-      and rental history tracking.`,
+      both customers and administrators. This project addresses the need for
+      an organized and automated system to manage car rentals, bookings, and
+      user information.`,
+    features: [
+      "User profiles with personal details and payment methods",
+      "Detailed car information (make, model, year, features, rental rates)",
+      "Inventory management with capabilities to add, edit, and remove car details",
+      "Search and filter functionality based on various criteria",
+      "Real-time car availability updates",
+      "Comprehensive booking process (car selection, rental dates, booking confirmation)",
+      "Functionality to view, modify, or cancel bookings",
+      "Management of pickup and drop-off locations",
+      "Booking management (view, modify, cancel)",
+    ],
+    architecture: [
+      {
+        title: "Modular Design",
+        description: "The backend is designed with a modular architecture, separating different concerns into distinct modules (e.g., user management, car listings, booking system).",
+      },
+      {
+        title: "Database Schema",
+        description: "The SQLite database is structured with tables for users, cars, bookings, payments, and support tickets, ensuring normalized data with relationships defined through foreign keys.",
+      }
+    ],
     implementation: "Detailed implementation steps for Portfolio...",
     additionalInfo: "Additional information about the Portfolio project...",
   },

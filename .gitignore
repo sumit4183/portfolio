@@ -21,7 +21,7 @@
 *.pem
 
 # info
-/public/tech/me.png
+/public/me.png
 
 # debug
 npm-debug.log*

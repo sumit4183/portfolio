@@ -30,8 +30,8 @@ const ProjectList = () => {
               <td className="px-4 py-2">{project.year}</td>
               {/* Name column which go to the read more page */}
               <td className="px-4 py-2 font-semibold">
-                {project.read_more && (
-                  <div>
+                {project.read_more ? (
+                  // <div>
                     <a
                       href={`/projects/${project.read_more}`}
                       target="_blank"
@@ -50,7 +50,11 @@ const ProjectList = () => {
                         </svg>
                       </span>
                     </a>
-                  </div>
+                  // </div>
+                ) : (
+                  <span className="inline-block">
+                    {project.name}
+                  </span>
                 )}
               </td>
               {/* Tech Stack Column */}

@@ -39,10 +39,6 @@
   display: block;
 }
 
-.black-gradient {
-  background: linear-gradient(90deg, rgb(0, 0, 0) -10.7%, rgb(34, 121, 197) 88.8%);
-}
-
 .heroHeadText {
   @apply text-white font-black lg:text-[80px] sm:text-[60px] text-[40px] lg:leading-[98px] mt-2;
 }
@@ -59,8 +55,29 @@
   @apply text-[25px] text-secondary tracking-wider;
 }
 
+/* Project Details Page */
 .projectHeadText {
-  @apply text-white font-black text-[40px] sm:text-[50px] md:text-[60px];
+  @apply text-[#62B6CB] font-black text-[40px] sm:text-[50px] md:text-[60px];
+}
+
+.projectSubText {
+  @apply text-[#62B6CB] text-[25px] font-bold;
+}
+
+.projectDescText {
+  @apply text-[#CADDE9] text-[16px] sm:text-[18px] md:text-[20px];
+}
+
+.projectText {
+  @apply text-[#CADDE9] text-[14px] sm:text-[16px] md:text-[18px];
+}
+
+.feature:nth-child(odd) {
+  @apply text-[#94b2c5] text-[14px] sm:text-[16px] md:text-[18px];
+}
+
+.feature:nth-child(even) {
+  @apply text-[#CADDE9] text-[14px] sm:text-[16px] md:text-[18px];
 }
 
 .breadcrumbText {
@@ -77,6 +94,10 @@
 
 .text-hover {
   @apply transform transition-transform duration-300 hover:scale-105 inline-flex items-center;
+}
+
+.black-gradient {
+  background: linear-gradient(90deg, rgb(0, 0, 0) -10.7%, rgb(34, 121, 197) 88.8%);
 }
 
 .gray-gradient {
