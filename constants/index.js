@@ -162,7 +162,7 @@ export const projectDetails = [
   // Portfolio
   {
     name: "Portfolio",
-    // read_more: "portfolio",
+    read_more: "portfolio",
     year: "2024",
     tags: [ "React", "Three.js", "TailwindCSS", ],
     source_code_link: "https://github.com/sumit4183/portfolio",
