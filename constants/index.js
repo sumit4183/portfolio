@@ -122,6 +122,20 @@ export const projects = [
 ];
 
 export const projectDetails = [
+  // Skeleton
+  // {
+  //   name: "",
+  //   read_more: "",
+  //   year: "",
+  //   tags: [""],
+  //   source_code_link: "",
+  //   website_link: "",
+  //   description: "",
+  //   features: "",
+  //   architecture: "",
+  //   implementation: "",
+  //   additionalInfo: "",
+  // },
   // Car Rental System
   {
     name: "Car Rental System",
@@ -164,9 +178,30 @@ export const projectDetails = [
     name: "Portfolio",
     read_more: "portfolio",
     year: "2024",
-    tags: [ "React", "Three.js", "TailwindCSS", ],
+    tags: [ "React", "Three.js", "TailwindCSS", "Framer Motion" ],
     source_code_link: "https://github.com/sumit4183/portfolio",
     website_link: "https://sumitp.netlify.app/",
+    description: `Personal portfolio showcases my skills, projects, and 
+      experience in a clean, modern, and user-friendly design. It serves as 
+      a digital resume and a platform to demonstrate my expertise in web 
+      development and other related areas`,
+    features: [
+      "Fully responsive and looks great on all devices, from mobile phones to desktops.",
+      "Each project has its own detailed page, showcasing the technologies used, features implemented, and other details",
+      "A brief introduction and summary of my background, skills, and professional experience",
+      "An integrated contact form allowing visitors to get in touch with me directly from the website",
+      "Smooth transitions and animations powered by Framer Motion to enhance user experience",
+    ],
+    architecture: [
+      {
+        title: "Component-Based and Responsive Design",
+        description: "Built with React and Tailwind CSS, the portfolio features a modular, component-based structure and fully responsive design, ensuring consistency and accessibility across devices.",
+      },
+      {
+        title: "Continuous Deployment",
+        description: "Deployed on Netlify with continuous integration, ensuring updates are automatically reflected.",
+      },
+    ],
     implementation: "Detailed implementation steps for Portfolio...",
     additionalInfo: "Additional information about the Portfolio project...",
   },

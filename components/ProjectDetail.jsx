@@ -5,7 +5,7 @@ import { useParams } from 'next/navigation';
 
 import SectionWrapper from "./SectionWrapper.jsx"
 import Breadcrumb from './Breadcrumb.jsx';
-import { projects, projectDetails } from "@/constants";
+import { projectDetails } from "@/constants";
 
 
 const ProjectDetail = () => {
@@ -24,7 +24,7 @@ const ProjectDetail = () => {
           <p>{project.description}</p>
         </div>
         <div className="w-full py-4 md:pl-10 md:w-1/2 md:order-2 order-2 hidden md:flex flex-col items-start">
-          <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Tech Stack */}
             <div className="w-full">
               <span className="projectSubText w-full"> Tech Stack </span>
