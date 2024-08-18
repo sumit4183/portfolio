@@ -131,10 +131,9 @@ export const projectDetails = [
   //   source_code_link: "",
   //   website_link: "",
   //   description: "",
-  //   features: "",
-  //   architecture: "",
-  //   implementation: "",
-  //   additionalInfo: "",
+  //   features: ["", ""],
+  //   architecture: [{title:"", description:""}],
+  //   development: "",
   // },
   // Car Rental System
   {
@@ -170,8 +169,7 @@ export const projectDetails = [
         description: "The SQLite database is structured with tables for users, cars, bookings, payments, and support tickets, ensuring normalized data with relationships defined through foreign keys.",
       }
     ],
-    implementation: "Detailed implementation steps for Portfolio...",
-    additionalInfo: "Additional information about the Portfolio project...",
+    development: "",
   },
   // Portfolio
   {
@@ -202,19 +200,46 @@ export const projectDetails = [
         description: "Deployed on Netlify with continuous integration, ensuring updates are automatically reflected.",
       },
     ],
-    implementation: "Detailed implementation steps for Portfolio...",
-    additionalInfo: "Additional information about the Portfolio project...",
+    development: "",
   },
   // Weather/News App
   {
     name: "Weather/News App",
-    // read_more: "weather-news-app",
+    read_more: "weather-news-app",
     year: "2023",
-    tags: [ "C#", "ASP.NET", "RESTfulAPI", ],
+    tags: [ "C#", "ASP.NET", "RESTfulAPI", "XML" ],
     source_code_link: "https://github.com/sumit4183/news-weather-app",
     website_link: "",
-    implementation: "Detailed implementation steps for Portfolio...",
-    additionalInfo: "Additional information about the Portfolio project...",
+    description: `The Weather/News Application is a comprehensive web-based 
+    solution designed to provide users with real-time weather updates and the
+    latest news articles, all in one convenient platform. The app integrates
+    external APIs to gather data and offers a user-friendly interface for easy
+    navigation and access to essential information. This project was developed
+    as a collaborative effort with a team, ensuring a well-rounded and robust 
+    application.`,
+    features: [
+      "Displays a 5-day weather forecast for a given location (e.g., zipcode, country code).",
+      "Sisplays the latest news articles based on user-defined keywords or topics.",
+      "Secure login/signup system with Captcha validation.",
+      "Admin functionality to manage staff members.",
+      "Visual representation of global temperatures with clickable locations.",
+
+    ],
+    architecture: [
+      {
+        title: "Modular Design",
+        description: "The application follows a modular architecture, separating concerns into distinct modules (e.g., user management, weather retrieval, news service).",
+      },
+      {
+        title: "Service-Oriented Architecture (SOA)",
+        description: "Utilizes .svc services to handle backend logic, API requests, and data processing, ensuring a clean separation between frontend and backend.",
+      },
+      {
+        title: "Data Storage",
+        description: "User and staff data are stored in XML files, with secure data handling and retrieval mechanisms.",
+      },
+    ],
+    development: "",
   },
   // FMS
   {
