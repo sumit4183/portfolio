@@ -18,15 +18,27 @@ export const services = [
 
 export const experiences = [
   {
-    title: "Computer Science Tutor",
+    title: "Exectuive Learning Assistant",
     company_name: "Ira A. Fulton Schools of Engineering",
     icon: "/company/ira.png",
     iconBg: "#565038",
-    date: "August 2023 - Present ",
+    date: "August 2024 - Present ",
     points: [
-      "Offer comprehensive one-on-one and group tutoring sessions to 20+ undergraduate students in Computer Sciences courses, assisting them in understanding complex concepts and problem-solving techniques.",
-      "Facilitate study groups for targeted high-stakes courses, creating a collaborative learning environment to enhance students’ understanding and academic performance.",
-      "Demonstrate strong teamwork skills by collaborating effectively with colleagues and faculty to develop innovative tutoring methods and resources for students’ benefit.",
+      "Acted as a liaison between tutoring centers, faculty, and Undergraduate Teaching Assistants (UGTAs) for Computer Science courses, fostering communication and refining tutoring strategies.",
+      "Lead biweekly collaboration meetings with faculty and UGTAs to plan and execute training sessions, improving tutoring strategies through constant feedback and iteration.",
+      "Provided in-person and virtual academic support for over 8 undergraduate courses, enhancing students' understanding of data structures, algorithms, and problem-solving techniques.",
+    ],
+  },
+  {
+    title: "Learning Assistant",
+    company_name: "Ira A. Fulton Schools of Engineering",
+    icon: "/company/ira.png",
+    iconBg: "#565038",
+    date: "August 2023 - August 2024 ",
+    points: [
+      "Provided in-person and virtual academic support for 8+ undergraduate courses in an open-lab setting, focusing on Computer Science topics.",
+      "Supported student learning in one-on-one sessions, addressing course-specific concerns and coaching students in college success skills.",
+      "Demonstrated strong teamwork skills by collaborating effectively with colleagues and faculty to develop innovative tutoring methods and resources for students’ benefit.",
     ],
   },
   {
@@ -34,11 +46,11 @@ export const experiences = [
     company_name: "Memorial Union, Arizona State University",
     icon: "/company/asu.png",
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Present",
+    date: "Jan 2022 - Aug 2024",
     points: [
-      "Oversees daily activities and serves as the point of contact for students, management, and community members.",
-      "Assist in monitoring and maintenance of a 254,000 square feet facility that serves over 5,000 students in a day.",
-      "Supervise 30+ student employees and managed 300+ events over a span of one year.",
+      "Oversaw daily operations of a 253,000 sq. ft. facility, ensuring smooth operations and excellent service for over 5,000 daily visitors.",
+      "Supervised and trained 30+ student employees, fostering a collaborative work environment and maintaining efficient operations.",
+      "Coordinated 300+ events annually, optimizing resource allocation and improving event success.",
     ],
   },
 ];
@@ -51,17 +63,19 @@ export const technologies = [
   { name: "JavaScript", icon: "/tech/javascript.png", },
   { name: "TypeScript", icon: "/tech/typescript.png", },
   { name: "Go", icon: "/tech/go.png", },
-  { name: "SQL", icon: "/tech/sql.png", },
   { name: "R", icon: "/tech/r.png", },
   { name: "MATLAB", icon: "/tech/matlab.png", },
   { name: "HTML 5", icon: "/tech/html.png", },
   { name: "CSS 3", icon: "/tech/css.png", },
   { name: "Tailwind CSS", icon: "/tech/tailwind.svg", },
   { name: "Bootstrap", icon: "/tech/bootstrap.png", },
-  { name: "React", icon: "/tech/reactjs.png", },
+  { name: "React.js", icon: "/tech/reactjs.png", },
+  { name: "Node.js", icon: "/tech/nodejs.png", },
   { name: "Next.js", icon: "/tech/nextjs.svg", },
   { name: "Three.js", icon: "/tech/threejs.png", },
   { name: "Django", icon: "/tech/django.png", },
+  { name: "SQL", icon: "/tech/sql.png", },
+  { name: "PostgreSQL", icon: "/tech/postgresql.svg", },
   { name: "ASP.NET", icon: "/tech/aspnet.png", },
   { name: "XML", icon: "/tech/xml.png", },
   { name: "Git", icon: "/tech/git.png", },
@@ -69,6 +83,16 @@ export const technologies = [
 ];
 
 export const projects = [
+  // Car Rental System
+  {
+    name: "Travel Smart App",
+    description:
+      "An AI-powered travel management app integrating flight and hotel booking, itinerary management, and real-time travel updates.",  
+    tags: [ "Next.js", "Django", "PostgreSQL", "PyTorch"],
+    read_more: "",
+    source_code_link: "",
+    website_link: "",
+  },
   // Car Rental System
   {
     name: "Car Rental System",

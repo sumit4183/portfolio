@@ -62,16 +62,18 @@ const ProjectCard = ({
         <div className='flex-grow'></div>
 
         <div className='mt-4 flex flex-wrap gap-2 justify-center'>
-          <div
-            onClick={() => window.open(source_code_link, "_blank")}
-            className='rounded-full items-center justify-center cursor-pointer flex'
-          >
-            <img
-              src="/github.png"
-              alt="External Link Symbol"
-              className="w-8 h-8 pb-2/3"
-            />
-          </div>
+          {source_code_link && (
+            <div
+              onClick={() => window.open(source_code_link, "_blank")}
+              className='rounded-full items-center justify-center cursor-pointer flex'
+            >
+              <img
+                src="/github.png"
+                alt="External Link Symbol"
+                className="w-8 h-8 pb-2/3"
+              />
+            </div>
+          )}
           {website_link && (
             <div
               onClick={() => window.open(website_link, "_blank")}
