@@ -2,12 +2,12 @@
 
 import React from "react";
 import Image from "next/image";
-// import SectionWrapper from "./SectionWrapper";
+import SectionWrapper from "./SectionWrapper";
 
 const AboutMe = () => {
   return (
     <section id="about" className="aboutme-section">
-      {/* <SectionWrapper> */}
+      <SectionWrapper>
       {/* Title */}
       <div className="text-center mb-12">
         <h2 className="text-4xl md:text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-green-400 to-purple-500">
@@ -51,7 +51,7 @@ const AboutMe = () => {
           </p>
         </div>
       </div>
-      {/* </SectionWrapper> */}
+      </SectionWrapper>
     </section>
   );
 };
