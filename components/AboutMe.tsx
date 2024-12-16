@@ -1,12 +1,13 @@
 "use client";
 
 import React from "react";
-import Link from "next/link";
 import Image from "next/image";
+// import SectionWrapper from "./SectionWrapper";
 
 const AboutMe = () => {
   return (
     <section id="about" className="aboutme-section">
+      {/* <SectionWrapper> */}
       {/* Title */}
       <div className="text-center mb-12">
         <h2 className="text-4xl md:text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-green-400 to-purple-500">
@@ -48,32 +49,9 @@ const AboutMe = () => {
             and exploring innovative solutions that drive success. Let’s build
             something amazing together!
           </p>
-
-          {/* Social Links */}
-          <div className="mt-6 flex gap-4">
-            <Link
-              href="https://linkedin.com/in/your-profile"
-              target="_blank"
-              className="hover:text-blue-400"
-            >
-              LinkedIn
-            </Link>
-            <Link
-              href="https://github.com/your-profile"
-              target="_blank"
-              className="hover:text-blue-400"
-            >
-              GitHub
-            </Link>
-            <Link
-              href="mailto:youremail@example.com"
-              className="hover:text-blue-400"
-            >
-              Email
-            </Link>
-          </div>
         </div>
       </div>
+      {/* </SectionWrapper> */}
     </section>
   );
 };

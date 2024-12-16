@@ -17,5 +17,5 @@
 
 /* About */
 .aboutme-section {
-  @apply bg-gray-900 text-white px-6 py-16 md:px-16 md:py-24 lg:px-36;
+  @apply bg-gray-900 text-white;
 }
