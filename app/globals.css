@@ -19,3 +19,11 @@
 .aboutme-section {
   @apply bg-gray-900 text-white;
 }
+
+.aboutme-head {
+  @apply text-4xl md:text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-green-400 to-purple-500;
+}
+
+.aboutme-content {
+  @apply flex flex-col md:flex-row items-center justify-between gap-12;
+}
