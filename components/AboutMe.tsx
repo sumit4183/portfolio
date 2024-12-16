@@ -4,12 +4,9 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-const AboutMe: React.FC = () => {
+const AboutMe = () => {
   return (
-    <section
-      id="about"
-      className="bg-gray-900 text-white px-6 py-16 md:px-16 md:py-24"
-    >
+    <section id="about" className="aboutme-section">
       {/* Title */}
       <div className="text-center mb-12">
         <h2 className="text-4xl md:text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-green-400 to-purple-500">

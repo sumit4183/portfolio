@@ -14,3 +14,8 @@
 .navbar-mobile-link {
   @apply block px-4 py-3 text-gray-300 hover:bg-gray-700 hover:text-white transition-colors duration-300;
 }
+
+/* About */
+.aboutme-section {
+  @apply bg-gray-900 text-white px-6 py-16 md:px-16 md:py-24 lg:px-36;
+}
