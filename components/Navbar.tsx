@@ -19,16 +19,16 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-6">
-            <Link href="#about" className="hover:text-blue-400 navbar-link">
+            <Link href="/under-development" className="hover:text-blue-400 navbar-link">
               About
             </Link>
-            <Link href="#projects" className="hover:text-green-400 navbar-link">
+            <Link href="/under-development" className="hover:text-green-400 navbar-link">
               Projects
             </Link>
-            <Link href="#skills" className="hover:text-purple-400 navbar-link">
+            <Link href="/under-development" className="hover:text-purple-400 navbar-link">
               Skills
             </Link>
-            <Link href="#contact" className="hover:text-pink-400 navbar-link">
+            <Link href="/under-development" className="hover:text-pink-400 navbar-link">
               Contact
             </Link>
           </div>
@@ -71,16 +71,16 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden bg-gray-800 shadow-md border-t border-gray-700">
-          <a href="#about" onClick={() => setIsOpen(false)} className="navbar-mobile-link">
+          <a href="/under-development" onClick={() => setIsOpen(false)} className="navbar-mobile-link">
             About
           </a>
-          <a href="#projects" onClick={() => setIsOpen(false)} className="navbar-mobile-link">
+          <a href="/under-development" onClick={() => setIsOpen(false)} className="navbar-mobile-link">
             Projects
           </a>
-          <a href="#skills" onClick={() => setIsOpen(false)} className="navbar-mobile-link">
+          <a href="/under-development" onClick={() => setIsOpen(false)} className="navbar-mobile-link">
             Skills
           </a>
-          <a href="#contact" onClick={() => setIsOpen(false)} className="navbar-mobile-link">
+          <a href="/under-development" onClick={() => setIsOpen(false)} className="navbar-mobile-link">
             Contact
           </a>
         </div>
