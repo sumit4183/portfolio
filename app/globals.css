@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Navbar */
+.navbar-head {
+  @apply text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-green-400;
+}
+
+.navbar-link {
+  @apply transition-all duration-300 text-lg font-bold;
+}
+
+.navbar-mobile-link {
+  @apply block px-4 py-3 text-gray-300 hover:bg-gray-700 hover:text-white transition-colors duration-300;
+}
