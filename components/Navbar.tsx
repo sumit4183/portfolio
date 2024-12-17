@@ -19,10 +19,10 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-6">
-            <Link href="#AboutMe" className="hover:text-blue-400 navbar-link">
+            <Link href="#about" className="hover:text-blue-400 navbar-link">
               About
             </Link>
-            <Link href="/under-development" className="hover:text-green-400 navbar-link">
+            <Link href="#projects" className="hover:text-green-400 navbar-link">
               Projects
             </Link>
             <Link href="/under-development" className="hover:text-purple-400 navbar-link">
@@ -71,10 +71,10 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden bg-gray-800 shadow-md border-t border-gray-700">
-          <a href="/under-development" onClick={() => setIsOpen(false)} className="navbar-mobile-link">
+          <a href="#about" onClick={() => setIsOpen(false)} className="navbar-mobile-link">
             About
           </a>
-          <a href="/under-development" onClick={() => setIsOpen(false)} className="navbar-mobile-link">
+          <a href="#projects" onClick={() => setIsOpen(false)} className="navbar-mobile-link">
             Projects
           </a>
           <a href="/under-development" onClick={() => setIsOpen(false)} className="navbar-mobile-link">
