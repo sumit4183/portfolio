@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
         {/* Call-to-Action Buttons */}
         <div className="mt-8 flex justify-center space-x-4">
           <a
-            href="/under-development"
+            href="#projects"
             className="px-6 py-3 bg-blue-500 hover:bg-blue-600 rounded-md text-lg font-medium text-white transition-all duration-300"
           >
             View Projects
