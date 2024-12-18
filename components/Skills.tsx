@@ -17,7 +17,7 @@ const Skills = () => {
   const [activeCategory, setActiveCategory] = useState("Languages");
 
   return (
-    <section id="skills" className="bg-gray-900 text-white py-12">
+    <section id="skills" className="bg-gray-900 text-white">
       <SectionWrapper>
         {/* Title */}
         <div className="text-center mb-8">
