@@ -156,3 +156,9 @@ export const experiences = [
     ],
   },
 ];
+
+export const contactLinks = [
+  { name: "Email", icon: "/mail.svg", link: "mailto:sumitpatel4183@gmail.com" },
+  { name: "LinkedIn", icon: "/linkedin.jpg", link: "https://linkedin.com/in/sumit4183" },
+  { name: "GitHub", icon: "/github.png", link: "https://github.com/sumit4183" },
+];
