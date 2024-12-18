@@ -31,7 +31,7 @@ const Navbar = () => {
             <Link href="#experience" className="hover:text-pink-400 navbar-link">
               Experience
             </Link>
-            <Link href="/under-development" className="hover:text-red-400 navbar-link">
+            <Link href="#contact" className="hover:text-red-400 navbar-link">
               Contact
             </Link>
           </div>
@@ -80,13 +80,13 @@ const Navbar = () => {
           <a href="#projects" onClick={() => setIsOpen(false)} className="navbar-mobile-link">
             Projects
           </a>
-          <a href="/skills" onClick={() => setIsOpen(false)} className="navbar-mobile-link">
+          <a href="#skills" onClick={() => setIsOpen(false)} className="navbar-mobile-link">
             Skills
           </a>
-          <a href="/experience" onClick={() => setIsOpen(false)} className="navbar-mobile-link">
+          <a href="#experience" onClick={() => setIsOpen(false)} className="navbar-mobile-link">
             Experience
           </a>
-          <a href="/under-development" onClick={() => setIsOpen(false)} className="navbar-mobile-link">
+          <a href="#contact" onClick={() => setIsOpen(false)} className="navbar-mobile-link">
             Contact
           </a>
         </div>

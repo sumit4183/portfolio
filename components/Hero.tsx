@@ -27,7 +27,7 @@ const Hero: React.FC = () => {
             View Projects
           </a>
           <a
-            href="/under-development"
+            href="#contact"
             className="px-6 py-3 bg-gray-700 hover:bg-gray-800 rounded-md text-lg font-medium text-white transition-all duration-300"
           >
             Contact Me
