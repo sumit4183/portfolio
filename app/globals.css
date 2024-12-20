@@ -64,3 +64,4 @@
 .skills-card {
   @apply flex flex-col items-center justify-center gap-2 p-3 bg-gray-800 rounded-lg shadow-md transition-all duration-300 min-h-[100px];
 }
+
