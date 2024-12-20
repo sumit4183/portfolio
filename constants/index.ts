@@ -5,10 +5,11 @@ export const projects = [
     description:
       "An AI-powered travel management app integrating flight and hotel booking, itinerary management, and real-time travel updates.",  
     tags: [ "Next.js", "Django", "PostgreSQL", "PyTorch"],
-    category: ["Full-Stack", "Databases", "ML/AI"],
+    category: ["ML/AI", "Full-Stack", "Databases"],
     read_more: "",
     source_code_link: "",
     website_link: "",
+    year: "2024",
   },
   // Car Rental System
   {
@@ -20,6 +21,7 @@ export const projects = [
     read_more: "",
     source_code_link: "https://github.com/sumit4183/car-rental",
     website_link: "",
+    year: "2024",
   },
   // Portfolio
   {
@@ -31,6 +33,7 @@ export const projects = [
     read_more: "",
     source_code_link: "https://github.com/sumit4183/portfolio",
     website_link: "https://sumitp.netlify.app/",
+    year: "2024",
   },
   // Weather/News App
   {
@@ -42,6 +45,19 @@ export const projects = [
     read_more: "",
     source_code_link: "https://github.com/sumit4183/news-weather-app",
     website_link: "",
+    year: "2023",
+  },
+  // Store Management System
+  {
+    name: "Store Management System",
+    description:
+      "This project delivers an easy-to-use Store Management System with Python and MySQL for efficient, secure, and user-friendly data management.", 
+    tags: [ "Python", "SQL", ],
+    category: ["Backend", "Database"],
+    read_more: "vsdbdbdb",
+    source_code_link: "https://github.com/sumit4183/Store-Management-System",
+    website_link: "",
+    year: "2022",
   },
   // FMS
   {
@@ -53,19 +69,8 @@ export const projects = [
     read_more: "",
     source_code_link: "https://github.com/sumit4183/Project-FMS",
     website_link: "https://sumit4183.github.io/Project-FMS/main.html",
+    year: "2021",
   },
-  // Store Management System
-  {
-    name: "Store Management System",
-    description:
-      "This project delivers an easy-to-use Store Management System with Python and MySQL for efficient, secure, and user-friendly data management.", 
-    tags: [ "Python", "SQL", ],
-    category: ["Backend", "Database"],
-    read_more: "",
-    source_code_link: "https://github.com/sumit4183/Store-Management-System",
-    website_link: "",
-  },
-  
 ];
 
 export const technologies = [

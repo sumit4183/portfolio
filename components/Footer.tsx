@@ -19,6 +19,9 @@ const Footer = () => {
       <div className="container mx-auto flex flex-col items-center gap-6 md:flex-row md:justify-between px-6">
         {/* Navigation Links */}
         <nav className="flex flex-wrap gap-4 text-md justify-center">
+          <Link href="/" className="hover:text-blue-400 transition-all">
+            Home
+          </Link>
           <Link href="/#projects" className="hover:text-blue-400 transition-all">
             Projects
           </Link>
