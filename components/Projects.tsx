@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+
 import SectionWrapper from "./SectionWrapper";
 import { projects } from "@/constants";
 
@@ -99,6 +100,10 @@ const ProjectCard = ({
 };
 
 const Projects = () => {
+  const navigateToArchive = () => {
+    window.open("/project-archive", "_blank");
+  };
+
   return (
     <section id="projects" className="bg-gray-900 text-white">
       <SectionWrapper>
@@ -123,7 +128,7 @@ const Projects = () => {
 
         <div className="mt-12 flex items-center justify-center">
           <button
-            onClick={() => window.open("/under-development", "_target")}
+            onClick={navigateToArchive}
             className="px-6 py-3 text-lg font-medium text-white rounded-lg flex items-center gap-2 transition-all hover:scale-110 group"
           >
             <span className="group-hover:text-blue-500 transition-all">
