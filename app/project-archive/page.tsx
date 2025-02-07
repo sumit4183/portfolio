@@ -5,19 +5,19 @@ import { projects } from "@/constants";
 import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { FiExternalLink } from "react-icons/fi"; // Import an icon for visual cue
+import { FiExternalLink } from "react-icons/fi";
 
 // Define a type for categories
 type Category = "All" | string;
 
 // Define the colors with correct typing
 export const categoryColors: Record<Category, string> = {
-  All: "text-gray-500", // Tailwind gray for "All" category
-  Frontend: "text-green-500 bg-green-500", // Tailwind green
-  Backend: "text-blue-500 bg-blue-500", // Tailwind blue
-  "Full-Stack": "text-yellow-500 bg-yellow-500", // Tailwind yellow
-  "ML/AI": "text-pink-500 bg-pink-500", // Tailwind pink
-  Database: "text-red-500 bg-red-500", // Tailwind red
+  All: "text-gray-500",
+  Frontend: "text-green-500 bg-green-500",
+  Backend: "text-blue-500 bg-blue-500",
+  "Full-Stack": "text-yellow-500 bg-yellow-500",
+  "ML/AI": "text-pink-500 bg-pink-500",
+  Database: "text-red-500 bg-red-500",
 };
 
 const ProjectArchive = () => {
