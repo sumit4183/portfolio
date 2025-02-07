@@ -11,7 +11,7 @@ import { FiExternalLink } from "react-icons/fi";
 type Category = "All" | string;
 
 // Define the colors with correct typing
-export const categoryColors: Record<Category, string> = {
+const categoryColors: Record<Category, string> = {
   All: "text-gray-500",
   Frontend: "text-green-500 bg-green-500",
   Backend: "text-blue-500 bg-blue-500",
