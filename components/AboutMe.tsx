@@ -66,7 +66,7 @@ export default function AboutMe () {
                 <h4 className="text-white font-semibold">Arizona State University</h4>
                 <p className="text-gray-400">Ira A. Fulton Schools of Engineering</p>
                 <p className="text-gray-300">B.S. in Computer Science</p>
-                <p className="text-gray-500">2020 – 2024</p>
+                <p className="text-gray-500">2021 – 2025</p>
               </div>
             </div>
 
@@ -83,7 +83,7 @@ export default function AboutMe () {
                 <h4 className="text-white font-semibold">Arizona State University</h4>
                 <p className="text-gray-400">School of Mathematical and Statistical Sciences</p>
                 <p className="text-gray-300">Minor in Data Science</p>
-                <p className="text-gray-500">2020 – 2024</p>
+                <p className="text-gray-500">2021 – 2025</p>
               </div>
             </div>
           </div>

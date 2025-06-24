@@ -130,45 +130,6 @@ export const technologies = [
   { name: "Extra", icon: "/", category: "Tools" },
 ];
 
-export const experiences = [
-  {
-    title: "Exectuive Learning Assistant",
-    company_name: "Ira A. Fulton Schools of Engineering",
-    icon: "/company/ira.png",
-    iconBg: "#565038",
-    date: "August 2024 - Present ",
-    points: [
-      "Acted as a liaison between tutoring centers, faculty, and Undergraduate Teaching Assistants (UGTAs) for Computer Science courses, fostering communication and refining tutoring strategies.",
-      "Lead biweekly collaboration meetings with faculty and UGTAs to plan and execute training sessions, improving tutoring strategies through constant feedback and iteration.",
-      "Provided in-person and virtual academic support for over 8 undergraduate courses, enhancing students' understanding of data structures, algorithms, and problem-solving techniques.",
-    ],
-  },
-  {
-    title: "Learning Assistant",
-    company_name: "Ira A. Fulton Schools of Engineering",
-    icon: "/company/ira.png",
-    iconBg: "#565038",
-    date: "August 2023 - August 2024 ",
-    points: [
-      "Provided in-person and virtual academic support for 8+ undergraduate courses in an open-lab setting, focusing on Computer Science topics.",
-      "Supported student learning in one-on-one sessions, addressing course-specific concerns and coaching students in college success skills.",
-      "Demonstrated strong teamwork skills by collaborating effectively with colleagues and faculty to develop innovative tutoring methods and resources for students’ benefit.",
-    ],
-  },
-  {
-    title: "Building Manager",
-    company_name: "Memorial Union, Arizona State University",
-    icon: "/company/asu.png",
-    iconBg: "#E6DEDD",
-    date: "Jan 2022 - Aug 2024",
-    points: [
-      "Oversaw daily operations of a 253,000 sq. ft. facility, ensuring smooth operations and excellent service for over 5,000 daily visitors.",
-      "Supervised and trained 30+ student employees, fostering a collaborative work environment and maintaining efficient operations.",
-      "Coordinated 300+ events annually, optimizing resource allocation and improving event success.",
-    ],
-  },
-];
-
 export const contactLinks = [
   { name: "Email", icon: "/mail.svg", link: "mailto:sumitpatel4183@gmail.com" },
   { name: "LinkedIn", icon: "/linkedin.jpg", link: "https://linkedin.com/in/sumit4183" },

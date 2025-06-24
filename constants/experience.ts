@@ -1,0 +1,62 @@
+export const experiences = [
+  {
+    title: 'Lead Software Engineering Tutor',
+    company: 'Arizona State University',
+    logo: '/company/ira.png',
+    date: 'August 2024 – May 2025',
+    location: 'Tempe, AZ',
+    bullets: [
+      'Acted as the primary liaison between tutoring centers, faculty, and UGTAs, streamlining operations by 20% through optimized usage of the Tutor Matching System (TMS).',
+      'Lead biweekly collaboration meetings with faculty and UGTAs, planning and executing training programs that boost Learning Assistants technical and instructional skills.',
+      'Delivered academic support for 8+ core CS courses including Data Structures (C++), Algorithms, Software Testing (Java/JUnit).',
+      'Spearhead the development of continuous feedback and iteration-based tutoring strategies, aligning programs with student and faculty expectations for improved learning outcomes.',
+      'Led technical workshops on recursion, sorting, and debugging strategies to enhance peer tutor effectiveness and student comprehension.',
+    ],
+    tags: [],
+  },
+    {
+    title: 'Software Engineering Intern',
+    company: 'Narola InfoTech',
+    logo: '/company/narola.jpeg',
+    date: 'November 2024 – December 2025',
+    location: 'Remote',
+    bullets: [
+      'Built RESTful APIs and backend logic using Python (Django) and PostgreSQL to power core application workflows and enable secure data access',
+      'Developed and integrated frontend components in React.js, ensuring real-time responsiveness and smooth user experiences across web interfaces',
+      'Containerized services using Docker and implemented CI/CD pipelines with GitHub Actions for streamlined testing and automated deployments',
+      'Deployed applications to AWS EC2 instances, managing build configurations and ensuring high availability during development cycles',
+      'Collaborated with designers, QA engineers, and senior developers during sprint planning, standups, and code reviews to meet tight delivery timelines.',
+    ],
+    ags: [],
+  },
+  {
+    title: 'Academic Support Specialist - Computer Science',
+    company: 'Arizona State University',
+    logo: '/company/ira.png',
+    date: 'August 2023 – August 2024',
+    location: 'Tempe, AZ',
+    bullets: [
+      'Provided personalized tutoring support in 8+ core courses, focusing on C++, Java, SQL, and object-oriented programming, through both in-person and virtual sessions.',
+      'Boosted academic performance by 25% among 100+ students through targeted reviews, and one-on-one learning plans.',
+      'Developed innovative resources and collaborated with faculty to implement effective tutoring methodologies that enhanced student comprehension and outcomes.',
+      'Guided freshmen in establishing a strong foundation in key Computer Science subjects, focusing on improving their study habits and critical thinking skills.',
+    ],
+    tags: [],
+  },
+  {
+    title: 'Facility Operations & Technical Manager ',
+    company: 'Memorial Union, Arizona State University',
+    logo: '/company/asu.png',
+    date: 'Jan 2022 – Aug 2024',
+    location: 'Tempe, AZ',
+    bullets: [
+      'Increased operational efficiency by 20% through the implementation of improved scheduling tools and inventory tracking systems.',
+      'Supervised a team of 30+ student employees, fostering a collaborative and high-performing environment that maintained consistent, high-quality service.',
+      'Coordinated logistics for 300+ events annually, managing audiovisual setups and overseeing technical requirements for seamless event execution.',
+      'Oversaw the daily operations of a high-traffic student center, ensuring all policies, procedures, and safety regulations were met, and providing excellent service to students, staff, and community members.',
+      'Handled safety and emergency procedures, including evacuations, while maintaining detailed records of incidents and ensuring compliance with safety regulations.',
+    ],
+    ags: [],
+  },
+  
+];
