@@ -3,9 +3,10 @@
 import React, { useState } from "react";
 import SectionWrapper from "./SectionWrapper";
 import Image from "next/image";
-import { technologies } from "@/constants";
+import { technologies } from "@/constants/technologies";
 
 const categories = [
+  "All",
   "Languages",
   "Frontend",
   "Backend",
@@ -14,16 +15,19 @@ const categories = [
 ];
 
 const Skills = () => {
-  const [activeCategory, setActiveCategory] = useState("Languages");
+  const [activeCategory, setActiveCategory] = useState("All");
+
+  const displayedTechs =
+    activeCategory === "All"
+      ? technologies.filter((t) => t.name !== "Extra")
+      : technologies.filter((t) => t.category === activeCategory);
 
   return (
     <section id="skills" className="bg-gray-900 text-white">
       <SectionWrapper>
         {/* Title */}
         <div className="text-center mb-8">
-          <h2 className="section-head">
-            Skills
-          </h2>
+          <h2 className="section-head">Skills</h2>
           <p className="mt-2 text-gray-400 text-lg">
             Explore the technologies and tools I specialize in.
           </p>
@@ -47,14 +51,14 @@ const Skills = () => {
         </div>
 
         {/* Skills Grid */}
-        <div className="skills-grid">
-        {technologies
-          .filter((tech) => tech.category === activeCategory)
-          .map((technology, index) => (
+        <div className="grid gap-4 grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6">
+          {displayedTechs.map((technology, index) => (
             <div
               key={`${technology.name}-${index}`}
               className={`skills-card ${
-                technology.name === "Extra" ? "invisible opacity-0 pointer-events-none" : "hover:scale-105"
+                activeCategory !== "All" && technology.name === "Extra"
+                  ? "invisible opacity-0 pointer-events-none"
+                  : "hover:scale-105"
               }`}
             >
               <Image
