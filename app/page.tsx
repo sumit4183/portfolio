@@ -6,6 +6,7 @@ import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import Achievements from "@/components/Achievements";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Skills />
       <Experience />
       <Projects />
+      {/* <Achievements /> */}
       <Contact />
       <Footer />
     </main>

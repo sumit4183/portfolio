@@ -14,7 +14,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-gray-900 text-gray-400 py-8">
+    <footer className="bg-[#111218] text-white py-8">
       {/* Container */}
       <div className="container mx-auto flex flex-col items-center gap-6 md:flex-row md:justify-between px-6">
         {/* Navigation Links */}

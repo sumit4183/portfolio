@@ -23,7 +23,7 @@ const Skills = () => {
       : technologies.filter((t) => t.category === activeCategory);
 
   return (
-    <section id="skills" className="bg-gray-900 text-white">
+    <section id="skills" className="bg-[#111218] text-white">
       <SectionWrapper>
         {/* Title */}
         <div className="text-center mb-8">

@@ -9,7 +9,7 @@ export default function Experience () {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <section id="experience" className="bg-gray-900 text-white">
+    <section id="experience" className="bg-[#111218] text-white">
       <SectionWrapper>
         {/* Title */}
         <div className="text-center mb-12">

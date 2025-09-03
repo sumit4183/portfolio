@@ -4,7 +4,7 @@ import React from "react";
 
 const Hero: React.FC = () => {
   return (
-    <section className="flex flex-col justify-center items-center bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white min-h-screen pt-16 relative">
+    <section className="flex flex-col justify-center items-center bg-[#111218] text-white min-h-screen pt-16 relative">
       <div className="text-center px-4">
         {/* Introduction */}
         <h1 className="relative text-4xl md:text-6xl font-extrabold text-white">

@@ -22,7 +22,7 @@
 
 /* About Section */
 .aboutme-section {
-  @apply bg-gray-900 text-white;
+  @apply bg-[#111218] text-white;
 }
 
 /* Project Section */

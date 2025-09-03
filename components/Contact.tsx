@@ -32,7 +32,7 @@ const Contact = () => {
   }, []);
 
   return isClient ? (
-    <section id="contact" className="bg-gray-900 text-white">
+    <section id="contact" className="bg-[#111218] text-white">
       <SectionWrapper>
         {/* Title */}
         <div className="text-center mb-8">
