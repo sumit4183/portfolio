@@ -11,6 +11,7 @@ const Achievements = () => {
         {/* Title */}
         <div className="text-center mb-12">
           <h2 className="section-head">Achievements & Certifications</h2>
+          {/* <div className="h-1 w-16 bg-gradient-to-r from-green-400 to-blue-500 mx-auto mt-2 rounded-full"></div> */}
           <p className="mt-2 text-gray-400 text-lg mx-auto w-2/3">
             A curated list of certifications and achievements that showcase my commitment to continuous learning and technical growth.
           </p>
@@ -21,11 +22,10 @@ const Achievements = () => {
           {achievements.map((item, idx) => (
             <div
               key={`achievement-${idx}`}
-              className="bg-[#111111]/90 border border-gray-700 rounded-xl p-6 flex flex-col justify-between shadow-md hover:shadow-lg transition duration-300"
-
-            >
+              className="rounded-xl bg-gradient-to-b from-[#1e293b] to-[#0f172a] border border-[#1f1f28] shadow-md p-6">
+                {/* <div className="bg-[#111218] rounded-xl p-6 h-full"> */}
               {/* Title */}
-              <h3 className="text-xl font-semibold mb-2 text-white">{item.title}</h3>
+              <h3 className="text-lg md:text-xl mb-2 font-bold text-white">{item.title}</h3>
 
               {/* Description */}
               <p className="text-gray-300 text-sm mb-4">{item.description}</p>
@@ -55,7 +55,8 @@ const Achievements = () => {
                   </a>
                 </div>
               )}
-            </div>
+              </div>
+            // </div>
           ))}
         </div>
       </SectionWrapper>

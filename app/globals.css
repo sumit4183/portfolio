@@ -1,10 +1,12 @@
+/* apps/globals.css */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 /* Section head */
 .section-head {
-  @apply text-4xl md:text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-green-400 to-purple-500;
+  @apply text-4xl md:text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-400 to-sky-500;
 }
 
 /* Navbar */
@@ -62,7 +64,8 @@
 }
 
 .skills-card {
-  @apply flex flex-col items-center justify-center gap-2 p-3 bg-gray-800 rounded-lg shadow-md transition-all duration-300 min-h-[100px];
+  @apply flex flex-col items-center justify-center gap-2 p-3 bg-gray-800 rounded-lg shadow-md transition-all duration-300; 
+  /* @apply flex flex-col items-center justify-center gap-2 p-3 bg-gray-800 rounded-lg shadow-md transition-all duration-300 min-h-[100px]; */
 }
 
 

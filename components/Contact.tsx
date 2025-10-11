@@ -36,7 +36,7 @@ const Contact = () => {
       <SectionWrapper>
         {/* Title */}
         <div className="text-center mb-8">
-          <h2 className="text-4xl md:text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-green-400 to-purple-500">
+          <h2 className="section-head">
             Get in Touch
           </h2>
           <p className="mt-2 text-gray-400 text-lg">

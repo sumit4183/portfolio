@@ -4,31 +4,31 @@ import React from "react";
 
 const Hero: React.FC = () => {
   return (
-    <section className="flex flex-col justify-center items-center bg-[#111218] text-white min-h-screen pt-16 relative">
-      <div className="text-center px-4">
-        {/* Introduction */}
-        <h1 className="relative text-4xl md:text-6xl font-extrabold text-white">
-          <span className="inline-block bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-green-400 to-purple-500">
-            Hi, I&apos;m Sumit Patel
-          </span>
-          {/* Animated border */}
-          <div className="absolute inset-0 -z-10 mx-auto w-64 md:w-96 h-64 md:h-96 rounded-full bg-gradient-to-r from-blue-500 via-green-400 to-purple-500 opacity-20 blur-3xl animate-pulse"></div>
+    <section className="relative flex flex-col justify-center items-center bg-[#111218] text-white min-h-screen pt-16 px-6 overflow-hidden">
+      {/* Animated Gradient Background */}
+      <div className="absolute inset-0 bg-gradient-to-br from-[#1a1a2e] via-[#16213e] to-[#0f3460] opacity-30 blur-2xl animate-pulse z-0"></div>
+
+      {/* Glass Card */}
+      <div className="relative z-10 backdrop-blur-md bg-white/5 border border-white/10 rounded-2xl p-8 max-w-2xl shadow-xl">
+        {/* Name and Title */}
+        <h1 className="text-4xl md:text-5xl font-extrabold text-white text-center">
+          Hi, I&apos;m <span className="text-blue-400">Sumit Patel</span>
         </h1>
-        <p className="mt-4 text-lg md:text-xl text-gray-300">
+        <p className="mt-4 text-lg md:text-xl text-gray-300 text-center">
           A passionate <span className="text-blue-400">Software Developer</span> crafting modern web experiences.
         </p>
 
-        {/* Call-to-Action Buttons */}
-        <div className="mt-8 flex justify-center space-x-4">
+        {/* CTA Buttons */}
+        <div className="mt-6 flex justify-center gap-4 flex-wrap">
           <a
             href="#projects"
-            className="px-6 py-3 bg-blue-500 hover:bg-blue-600 rounded-md text-lg font-medium text-white transition-all duration-300"
+            className="px-6 py-2 border border-blue-500 text-blue-400 hover:bg-blue-500 hover:text-white rounded-lg text-base font-medium transition-all duration-300"
           >
             View Projects
           </a>
           <a
             href="#contact"
-            className="px-6 py-3 bg-gray-700 hover:bg-gray-800 rounded-md text-lg font-medium text-white transition-all duration-300"
+            className="px-6 py-2 border border-gray-600 text-gray-300 hover:bg-gray-700 hover:text-white rounded-lg text-base font-medium transition-all duration-300"
           >
             Contact Me
           </a>
@@ -36,8 +36,8 @@ const Hero: React.FC = () => {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 animate-bounce">
-        <a href="#about" className="text-gray-400 hover:text-blue-400 transition-all">
+      <div className="absolute bottom-10 z-10 animate-bounce">
+        <a href="#about" className="text-gray-500 hover:text-blue-400 transition-all">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-8 w-8 mx-auto"
@@ -52,7 +52,7 @@ const Hero: React.FC = () => {
               d="M19 9l-7 7-7-7"
             />
           </svg>
-          <p className="text-sm mt-1">Scroll Down</p>
+          <p className="text-sm mt-1">Scroll</p>
         </a>
       </div>
     </section>

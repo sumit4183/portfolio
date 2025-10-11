@@ -1,3 +1,5 @@
+// components/Skills.tsx
+
 "use client";
 
 import React, { useState } from "react";
@@ -10,12 +12,14 @@ const categories = [
   "Languages",
   "Frontend",
   "Backend",
-  "Databases",
-  "Tools",
+  "Databases & APIs",
+  "Tools & DevOps",
+  "AI/ML",
+  "Cloud & Hosting",
 ];
 
 const Skills = () => {
-  const [activeCategory, setActiveCategory] = useState("All");
+  const [activeCategory, setActiveCategory] = useState("Languages");
 
   const displayedTechs =
     activeCategory === "All"
@@ -51,7 +55,13 @@ const Skills = () => {
         </div>
 
         {/* Skills Grid */}
-        <div className="grid gap-4 grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6">
+        <div
+          className={`grid gap-4 ${
+            activeCategory === "All"
+              ? "grid-cols-3 sm:grid-cols-6 md:grid-cols-7 lg:grid-cols-11"
+              : "grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6"
+          }`}
+        >
           {displayedTechs.map((technology, index) => (
             <div
               key={`${technology.name}-${index}`}
@@ -61,14 +71,16 @@ const Skills = () => {
                   : "hover:scale-105"
               }`}
             >
-              <Image
-                src={technology.icon}
-                alt={`${technology.name} Icon`}
-                width={30}
-                height={30}
-                className="w-12 h-12"
-              />
-              <span className="text-gray-300 text-xs sm:text-sm font-medium">
+              {activeCategory !== "All" && (
+                <Image
+                  src={technology.icon}
+                  alt={`${technology.name} Icon`}
+                  width={30}
+                  height={30}
+                  className="w-12 h-12"
+                />
+              )}
+              <span className="text-gray-300 text-xs sm:text-sm font-medium text-center">
                 {technology.name}
               </span>
             </div>
